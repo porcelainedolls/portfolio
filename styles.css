@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../asset/teste_bg_2.jpg);
+    background-size: 197vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.25;
+}
+
+.cabecalho {
+    padding: 2% 0 0 25%;
+    display: flex;
+    gap: 25rem;
+}
+
+.cabecalho_conteudo {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.cabecalho_link {
+    color: blueviolet;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.cabecalho_link:hover {
+    color: rgb(88, 21, 150);
+}
+
+.principal {
+    color: white;
+    margin: 5% 25%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7%;
+}
+
+.principal_container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.principal_conteudo {
+    max-width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+
+h1, h2, h3, p {
+    font-size: 1.25rem;
+}
+
+.header2 {
+    color: blueviolet;
+}
+
+.paragrafo1 {
+    color: rgb(138, 43, 226);
+}
+
+.paragrafo_details {
+    color: rgb(138, 43, 226);
+    font-size: 1.20rem;
+}
+
+.attachments {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 280px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 17px 20px;
+    transition: 0.3s ease, color 0.3s ease;
+}
+
+.Links:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+.Links:active {
+    background-color: #272727;
+    color: white;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 19.5vh;
+    background-color: blueviolet;
+    color: black;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.email {
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 1150px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho_conteudo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .principal {
+        flex-direction: column-reverse;
+    }
+}
