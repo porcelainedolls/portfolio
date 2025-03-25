@@ -7,8 +7,8 @@
 }
 
 body {
-    background-image: url(../asset/teste_bg.jpg);
-    background-size: 195vh;
+    background-image: url(../asset/teste_bg_2.jpg);
+    background-size: 197vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -120,7 +120,7 @@ h1, h2, h3, p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 19.5vh;
     background-color: blueviolet;
     color: black;
     padding: 2.5rem;
