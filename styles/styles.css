@@ -7,7 +7,11 @@
 }
 
 body {
-    background-color: black;
+    background-image: url(../asset/teste_bg.jpg);
+    background-size: 195vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     color: white;
     font-family: "Montserrat", sans-serif;
     line-height: 1.25;
@@ -15,11 +19,14 @@ body {
 
 .cabecalho {
     padding: 2% 0 0 25%;
+    display: flex;
+    gap: 25rem;
 }
 
 .cabecalho_conteudo {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .cabecalho_link {
@@ -34,6 +41,7 @@ body {
 }
 
 .principal {
+    color: white;
     margin: 5% 25%;
     display: flex;
     align-items: center;
@@ -131,6 +139,7 @@ h1, h2, h3, p {
 
     .cabecalho_conteudo {
         justify-content: center;
+        flex-wrap: wrap;
     }
     
     .principal {
